@@ -5,7 +5,7 @@ PROJECT_NAME := provider-jet-azure
 PROJECT_REPO := github.com/crossplane-contrib/$(PROJECT_NAME)
 
 export TERRAFORM_PROVIDER_SOURCE ?= hashicorp/azurerm
-export TERRAFORM_VERSION ?= 1.2.5
+export TERRAFORM_VERSION ?= 1.2.6
 export TERRAFORM_PROVIDER_DOWNLOAD_NAME := terraform-provider-azurerm
 export TERRAFORM_PROVIDER_VERSION := 3.15.1
 
